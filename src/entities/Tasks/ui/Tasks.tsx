@@ -17,7 +17,10 @@ const Tasks = ({tasks} : ITodoList) => {
                 </thead>
                 <tbody>
                 {/* row 1 */}
-              
+                <tr>
+                    <td>Ilyas</td>
+                    <td></td>
+                </tr>
                 </tbody>
             </table>
         </div>
