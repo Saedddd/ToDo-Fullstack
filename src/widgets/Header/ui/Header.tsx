@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from "@/shared/ui/Button";
+import Link from "next/link";
 import { useState } from "react"
 
 const Header = () => {
@@ -16,6 +17,10 @@ const Header = () => {
         <div>Open</div>
         :
         null}
+
+        <Link href={'/todo'}>
+          ToDoList
+        </Link>
     </div>
   )
 }
